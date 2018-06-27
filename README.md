@@ -63,6 +63,8 @@ print(tx_obj.serialize().hex())
 
 ### Test Driven Exercise
 
+The actual signing of the transaction is the trickiest part. Thankfully, we know how to get the sighash, or the z. We have to have the private key to actually sign the transaction and signing the z to produce the r and s of the signature is exactly what we need to do.
+
 
 ```python
 from tx import Tx
