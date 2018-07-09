@@ -1,5 +1,5 @@
 
-# Signing Transaction Inputs Exercise
+# Signing Transactions Exercise
 
 ### Test Driven Exercise
 
